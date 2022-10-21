@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+/* General Stuff */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(73, 73, 73);
+}
+
+button, button:hover, button:focus {
+    background:none;
+    border:none;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+article {
+    padding: 4rem 0;
+    max-width: 1200px;
+}
+
+/* Header*/
+
+header {
+    background: url(background.jpg) fixed;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav, header a, #about h1, #about p {
+    color: white;
+}
+
+header a:hover {
+    color: rgb(243, 138, 0);
+    transition: 0.2s;
+}
+
+nav {
+    align-self: stretch;
+    font-size: 1.2rem;
+    font-weight: 900;
+    align-items: flex-end;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 900;
+    gap:8px;
+}
+
+.logo img {
+    max-width: 40px;
+}
+
+header a {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+nav, ul {
+    display: flex;
+    gap: 16px;
+}
+
+ul {
+    margin-left: auto;
+}
+
+/* About */
+
+#about {
+    display: flex;
+    gap: 32px;
+}
+
+#about img {
+    max-width: 400px;
+}
+
+#about button {
+    font-size: 1rem;
+    color: white;
+    padding: 16px;
+    border: 1px solid white;
+    transition: 0.5s;
+
+}
+
+#about button:hover, button:focus {
+    background: rgb(243, 138, 0);
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.introduction p {
+    line-height: 1.5;
+}
+
+.introduction a {
+    align-self: flex-start;
+}
+
+/* Media*/
+
+#media {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex: 1 1 0;
+    gap: 36px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* quote */
+
+.contactwrap {
+    background-color: rgb(39, 39, 39);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+
+}
+
+#quote {
+    font-style: italic;
+    max-width: 800px;
+}
+
+#quote p {
+    color:rgb(185, 185, 185);
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    padding: 1rem;
+}
+
+#quote .name {
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+/* Contact */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#contact h2, #contact p {
+    padding-bottom: 2rem;
+}
+
+#contact button {
+    font-size: 1rem;
+    color: black;
+    padding: 16px;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+
+
+#contact button:hover, #contact button:focus {
+    background: rgb(206, 206, 206);
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Footer */
+
+footer {
+    background: rgb(73, 73, 73);
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+
+
+
+
+
