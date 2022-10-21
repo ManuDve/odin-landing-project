@@ -103,6 +103,7 @@ ul {
 
 #about img {
     max-width: 400px;
+    align-self: center;
 }
 
 #about button {
